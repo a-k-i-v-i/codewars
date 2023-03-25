@@ -214,3 +214,36 @@ console.log(
     }
   )(5)
 );
+
+console.log(
+  (
+    function(a){
+      arguments[0] = 10
+      return a
+    }
+  )(5)
+);
+console.log(
+  (
+    function(a){
+      arguments[0] = 10
+      return a
+    }
+  )(5)
+);
+console.log(
+  (
+    function(a){
+      arguments[0] = 10
+      return a
+    }
+  )(5)
+);
+console.log(
+  (
+    function(a){
+      arguments[0] = 10
+      return a
+    }
+  )(5)
+);
